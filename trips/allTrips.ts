@@ -11,9 +11,11 @@ import { greatOceanRoad } from '~/greatOceanRoad/greatOceanRoad'
 import { abisko } from './abisko/abisko'
 import { crossCountryKlovsjo } from './crossCountryKlovsjo/crossCountryKlovsjo'
 import { flytfest } from './flytfest/flytfest'
+import { canoesCampingColleagues } from './canoesCampingColleagues/canoesCampingColleagues'
 
 export const allTrips: Trip[] = [
   // demoTrip,
+  canoesCampingColleagues,
   flytfest,
   crossCountryKlovsjo,
   golden_day_in_sweden,
