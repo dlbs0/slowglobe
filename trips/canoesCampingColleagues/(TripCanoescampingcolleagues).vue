@@ -12,7 +12,24 @@ const { data: geom } = useTripDetails()
   <DetailView>
     <SGHeader>Canoes, Colleagues & Camping</SGHeader>
     <SGText>
-      Words here.
+      <!-- Words here. https://demo.itineraries.traveledmap.com/stretchable8 -->
+      <p>
+        Of course Sweden has work camping trips, and of course I was on it. I guess not everyone is
+        keen to go into the wilderness with a bunch of co-workers, but a canoe-camping trip is hard
+        to resist.
+      </p>
+      <p>
+        We took Friday off, but still assembled at work early in the morning to load our gear into
+        two minivans. Four hours and 300km west later, we arrived at our destination, Lake Rogen,
+        right on the edge of the Swedish-Norwegian border. The last "ten minutes" of our trip was on
+        some pretty rough roads, and the minivans were not quite able to handle Google's estimates,
+        leaving plenty of time for suspense to build.
+      </p>
+      <p>
+        We had lunch at the launch site, outside on a table next to the classic Swedish red houses
+        and barns. I think this was the first time I had seen Swedes eat sandwiches for lunch, a
+        remarkable event despite their excellent sandwich culture.
+      </p>
       <br />
       <br />
     </SGText>
