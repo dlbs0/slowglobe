@@ -2,23 +2,21 @@
   "scripts": {
     "dev": "npm run dev --workspace=engine",
     "build": "npm run build --workspace=engine",
-    "lint": "npm run lint --workspaces",
+    "lint": "eslint . --fix --cache",
     "create-trip": "npm run create-trip --workspace=engine",
     "encode-video": "npm run encode-video --workspace=engine",
-    "convert-images": "npm run convert-images --workspace=engine",
-    "postinstall": "patch-package"
+    "convert-images": "npm run convert-images --workspace=engine"
   },
   "workspaces": [
     "trips",
     "engine"
   ],
   "devDependencies": {
-    "@rushstack/eslint-patch": "^1.11.0",
-    "@vue/eslint-config-prettier": "^9.0.0",
-    "@vue/eslint-config-typescript": "^13.0.0",
-    "eslint": "^8.57.1",
-    "eslint-plugin-vue": "^9.33.0",
-    "patch-package": "^8.0.0",
-    "prettier": "^3.5.3"
+    "@vue/eslint-config-prettier": "^10.2.0",
+    "@vue/eslint-config-typescript": "^14.6.0",
+    "eslint": "^9.39.1",
+    "eslint-plugin-vue": "~10.5.1",
+    "jiti": "^2.6.1",
+    "prettier": "^3.7.4"
   }
 }

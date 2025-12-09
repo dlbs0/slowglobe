@@ -37,3 +37,6 @@ engine/typed-router.d.ts
 *.HEIC
 
 logo/oldVersions
+
+.eslintcache
+
