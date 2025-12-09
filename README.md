@@ -41,3 +41,7 @@ Images are stored in the `images` folder of the relevant trip. They are compress
 Videos are stored in the `videos` folder of the relevant trip. We need to both compress and create a thumbnail for the video, and vite cannot do this natively, so we use the `encode-video` script to do this.
 
 To use, place videos into the `videos` folder in the trip, and run `npm run encode-video`. It will move the original files to the `source_files` folder (not committed), and create the new files with the prefix `o_` (optimised). If you want to crop the video, you should do that before optimising.
+
+## Updating
+
+When changes are made to the template project, you can integrate them by running `git pull https://github.com/SlowGlobe/slowglobeTemplate.git main` in your fork. You can also update the 'engine' backend code independently, but there is no guarantee of backwards compatibility that way.

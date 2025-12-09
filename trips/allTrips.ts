@@ -7,14 +7,13 @@ import { sweden } from '~/sweden/sweden'
 import { ljusdal } from '~/ljusdal/ljusdal'
 import { germanGigs } from '~/germanGigs/germanGigs'
 import { golden_day_in_sweden } from '~/golden_day_in_sweden/golden_day_in_sweden'
-import { greatOceanRoad } from '~/greatOceanRoad/greatOceanRoad'
 import { abisko } from './abisko/abisko'
 import { crossCountryKlovsjo } from './crossCountryKlovsjo/crossCountryKlovsjo'
-import { tickingOffATrekInSwitzerland } from './tickingOffATrekInSwitzerland/tickingOffATrekInSwitzerland'
+import { flytfest } from './flytfest/flytfest'
 
 export const allTrips: Trip[] = [
   // demoTrip,
-  tickingOffATrekInSwitzerland,
+  flytfest,
   crossCountryKlovsjo,
   golden_day_in_sweden,
   germanGigs,

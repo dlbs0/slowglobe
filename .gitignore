@@ -20,6 +20,7 @@ coverage
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
+!.vscode/settings.json
 .idea
 *.suo
 *.ntvs*
@@ -37,3 +38,6 @@ engine/typed-router.d.ts
 *.HEIC
 
 logo/oldVersions
+
+.eslintcache
+

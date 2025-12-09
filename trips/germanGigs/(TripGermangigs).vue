@@ -170,7 +170,7 @@ const { data: geom } = useTripDetails()
       But Cologne has a distinct feel to it that's hard to put into words. The streets are often
       almost uncomfortably busy, everyone looks the kind of cool that requires high-end thrift
       stores, and there's an abundance of restaurants serving exotic dishes rather than Berlin's
-      same 3 options on every corner. Colgone is known as a cultural and music hub, and you can feel
+      same 3 options on every corner. Cologne is known as a cultural and music hub, and you can feel
       it on the streets.
       <br />
       <br />
