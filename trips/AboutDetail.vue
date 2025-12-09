@@ -1,19 +1,21 @@
 <template>
   <div class="attribution">
-    <PostageStamp :image="headshot"></PostageStamp>
+    <PostageStamp :image="headshotImage"></PostageStamp>
     <br />
     <br />
     <div>
-      An account of exploration by
-      <div class="name">Daniel Birch-Smith</div>
+      The Adventures of
+      <div class="name">Insert Name Here</div>
     </div>
     <br />
     <br />
-    Find more things I've done at
-    <a href="https://www.danielbirchsmith.com" target="_blank">www.danielbirchsmith.com</a>
+    SlowGlobe is a travel blogging tool, find out more at
+    <a href="https://github.com/SlowGlobe/slowglobeTemplate" target="_blank"
+      >github.com/SlowGlobe/slowglobeTemplate</a
+    >
     <br />
     <br />
-    Text, photos and code on this site by me, unless otherwise noted.
+    You can customise this page in the <em>trips/AboutDetail.vue</em> file.
     <br />
     <br />
     <div>
@@ -25,15 +27,11 @@
         rel="noopener nofollow"
         href="https://www.mapbox.com/"
         aria-label="Mapbox homepage"
-      ></a
-      >, style is based on Standard, with some modifications to reduce clutter. Forgive my
-      cartography skills, mapmaking is hard.
+      ></a>
     </div>
     <br />
     Written with Vue, Vite, Typescript, using the Mapbox, Turf, VueUse, LightGallery and
     vite-imagetools libraries.
-    <br /><br />
-    There are almost certainly bugs (especially on iOS). Let me know if you find one.
   </div>
 </template>
 
@@ -64,5 +62,5 @@
 </style>
 <script setup lang="ts">
 import PostageStamp from '@/components/PostageStamp.vue'
-import headshot from './DSC_0722.jpg'
+import headshotImage from './Portrait_Placeholder_Square.png'
 </script>
