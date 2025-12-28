@@ -7,6 +7,7 @@ import SGMapCutout from '@/components/SGMapCutout.vue'
 import SGText from '@/components/SGText.vue'
 import SGMapFollow from '@/components/SGMapFollow.vue'
 import type { Feature, LineString } from 'geojson'
+import SpotifyEmbed from '@/components/SpotifyEmbed.vue'
 const { data: geom } = useTripDetails()
 
 const dayOneGeom = geom.value?.features[4] as Feature<LineString>
@@ -15,6 +16,7 @@ const dayOneGeom = geom.value?.features[4] as Feature<LineString>
 <template>
   <DetailView>
     <SGHeader>Ticking off a trek in Switzerland</SGHeader>
+    <SpotifyEmbed :url="'playlist/3AonEgmTbC1KdNTB1Bk9Op'" :small="false"></SpotifyEmbed>
     <SGText>
       <p>
         Living in Europe has its perks, and one of the big ones is being able to meet up with our
