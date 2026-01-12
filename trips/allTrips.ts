@@ -11,12 +11,13 @@ import { abisko } from './abisko/abisko'
 import { crossCountryKlovsjo } from './crossCountryKlovsjo/crossCountryKlovsjo'
 import { flytfest } from './flytfest/flytfest'
 import { tickingOffATrekInSwitzerland } from './tickingOffATrekInSwitzerland/tickingOffATrekInSwitzerland'
+import { firstChairLastCall } from './firstChairLastCall/firstChairLastCall'
 
 export const allTrips: Trip[] = [
   // demoTrip,
-
+  firstChairLastCall,
   flytfest,
-  tickingOffATrekInSwitzerland,
+  // tickingOffATrekInSwitzerland,
   crossCountryKlovsjo,
   golden_day_in_sweden,
   germanGigs,
