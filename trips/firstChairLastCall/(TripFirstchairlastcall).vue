@@ -6,7 +6,7 @@ import SGText from '@/components/SGText.vue'
 </script>
 
 <template>
-  <DetailView>
+  <DetailView weather="snowy">
     <SGHeader>First Chair, Last Call</SGHeader>
     <SGText>
       <p><i>"First chair, last call"</i></p>

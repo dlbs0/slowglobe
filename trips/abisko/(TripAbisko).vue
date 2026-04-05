@@ -11,7 +11,7 @@ import SGDayBreak from '@/components/SGDayBreak.vue'
 </script>
 
 <template>
-  <DetailView>
+  <DetailView weather="snowy">
     <SGHeader>An Adventure in Abisko</SGHeader>
     <SGText>
       Lil and Emma were over in Sweden for a few days over new years, and we decided to visit Abisko
@@ -123,6 +123,7 @@ import SGDayBreak from '@/components/SGDayBreak.vue'
       :pitch="83"
       :bearing="168"
       :satellite="'contours'"
+      weather="snowy"
     />
     <SGText>
       That afternoon we headed into the town proper to go dog sledding. Dog sledding is pretty much
