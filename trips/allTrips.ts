@@ -12,8 +12,10 @@ import { crossCountryKlovsjo } from './crossCountryKlovsjo/crossCountryKlovsjo'
 import { flytfest } from './flytfest/flytfest'
 import { tickingOffATrekInSwitzerland } from './tickingOffATrekInSwitzerland/tickingOffATrekInSwitzerland'
 import { firstChairLastCall } from './firstChairLastCall/firstChairLastCall'
+import { goingCoastal } from './goingCoastal/goingCoastal'
 
 export const allTrips: Trip[] = [
+  goingCoastal,
   // demoTrip,
   firstChairLastCall,
   flytfest,
