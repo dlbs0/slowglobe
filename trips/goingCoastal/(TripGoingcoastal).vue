@@ -191,7 +191,7 @@ import SGDayBreak from '@/components/SGDayBreak.vue'
         Unfortunately, when I got back to camp, my filter was not flowing at all. I later discovered
         that the minerals in the water here calcified inside it last time I backflushed it, and have
         since got it going again with copious amounts of vinegar. But in the moment, that meant that
-        my next mission was finding water. I packed up camped an headed into the nearby town of
+        my next mission was finding water. I packed up camped and headed into the nearby town of
         Mellanfjärden, which was all but asleep.
       </p>
       <p>
