@@ -5,7 +5,7 @@ import detailGeo from './geometry.geojson'
 
 export const norway2026: Trip = {
   id: 'norway2026',
-  name: "Nor-Way You're Eating That Whole Brunost Alone",
+  name: 'Nor-Way that will take 5 hours',
   headerImage: imgUrl,
   date: '2026-07-06',
   locationText: 'Trøndelag, Norway',
