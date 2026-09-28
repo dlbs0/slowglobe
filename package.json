@@ -6,7 +6,8 @@
     "create-trip": "npm run create-trip --workspace=engine",
     "encode-video": "npm run encode-video --workspace=engine",
     "convert-images": "npm run convert-images --workspace=engine",
-    "list-images": "npm run list-images --workspace=engine"
+    "list-images": "npm run list-images --workspace=engine",
+    "migrate-geojson-times": "npm run migrate-geojson-times --workspace=engine"
   },
   "workspaces": [
     "trips",
