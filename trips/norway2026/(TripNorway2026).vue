@@ -7,10 +7,11 @@ import SGMapCutout from '@/components/SGMapCutout.vue'
 import SGText from '@/components/SGText.vue'
 import SGDayBreak from '@/components/SGDayBreak.vue'
 import SGMapFollow from '@/components/SGMapFollow.vue'
-import { lineSliceAlong, bearing, lineSlice, length } from '@turf/turf'
+import { length } from '@turf/turf'
+import type { Feature, LineString } from 'geojson'
 
 const { data: geom } = useTripDetails()
-const hikeGeom = geom.value?.features[4]
+const hikeGeom = geom.value?.features[4] as Feature<LineString>
 console.log('hikeGeom:', hikeGeom)
 const lengthof = length(hikeGeom)
 console.log('length:', lengthof)
