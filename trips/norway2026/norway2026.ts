@@ -11,7 +11,7 @@ export const norway2026: Trip = {
   locationText: 'Trøndelag, Norway',
   geography: {
     overview: {
-      center: [9.22486504684366, 62.015774840322706],
+      center: [10.449139940741247, 61.11032252106571],
       tracks: overviewGeo,
       zoom: 7
     },

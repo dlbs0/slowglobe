@@ -10,7 +10,7 @@ import SGMapFollow from '@/components/SGMapFollow.vue'
 import { lineSliceAlong, bearing, lineSlice, length } from '@turf/turf'
 
 const { data: geom } = useTripDetails()
-const hikeGeom = geom.value?.features[1]
+const hikeGeom = geom.value?.features[4]
 console.log('hikeGeom:', hikeGeom)
 const lengthof = length(hikeGeom)
 console.log('length:', lengthof)
@@ -63,7 +63,7 @@ console.log('length:', lengthof)
     </SGText>
     <SGMapCutout
       :fit-bounds-geometry="geom"
-      :fit-only-to-indexes="[2, 3]"
+      :fit-only-to-indexes="[1, 2]"
       :satellite="'contours'"
     ></SGMapCutout>
 
@@ -74,9 +74,7 @@ console.log('length:', lengthof)
         continue on foot. We didn’t quite make it all the way before stopping for our first round of
         salami sandwiches, but after a little more effort we made it to the top to finish them off.
         Reaching the summit provided an exceptional view over the valley where we'd spent the night
-        and the river we’d be following for the rest of the day. Second hike in two days completed,
-        we jumped back in the car and drove several hours to our camping spot for the night, Gjeilo
-        Camping, watching the mountains slowly growing as we made our way West.
+        and the river we’d be following for the rest of the day.
       </p>
     </SGText>
     <SGGallery
@@ -88,12 +86,17 @@ console.log('length:', lengthof)
         'PXL_20260708_132325025.jpg'
       ]"
     />
-    <SGText>
+    <SGText
+      ><p>
+        Second hike in two days completed, we jumped back in the car and drove several hours to our
+        camping spot for the night, Gjeilo Camping, watching the mountains slowly growing as we made
+        our way West.
+      </p>
       <p>
         We booked for two nights and found a quiet spot under the pine trees to set up camp in our
         river-side campground. Camp stove chilli con carne followed by an entire leftover wedding
         cake fueled us for a late night of Monopoly Deal. After just enough rounds that we (mostly
-        just Nathan) were satisfied with our millions in the bank we headed down to the river to
+        just Nathan) were satisfied with our millions in the bank, we headed down to the river to
         obtain some 11pm ‘sunset’ photos before brushing teeth and heading to bed in the eternal
         twilight.
       </p>
@@ -137,12 +140,13 @@ console.log('length:', lengthof)
     <SGMapFollow
       :geometry="hikeGeom"
       :satellite="'contours'"
-      :pitch="50"
       :follow="true"
       :use-time="false"
-      :show-time="false"
-      :follow-pitch="70"
+      :show-time="true"
+      :follow-pitch="50"
       :overview="true"
+      :overview-pitch="75"
+      :noPreScroll="false"
     />
     <SGText>
       <p>
@@ -211,8 +215,16 @@ console.log('length:', lengthof)
         'IMG_1441.jpg',
         'PXL_20260710_101519075.LONG_EXPOSURE-01.COVER.jpg',
         'IMG_9427.jpg',
-        'PXL_20260710_104312890.LONG_EXPOSURE-01.COVER.jpg'
+        'PXL_20260710_104312890.LONG_EXPOSURE-01.COVER.jpg',
+        'o_DJI_0146_trim.m4v'
       ]"
+    />
+    <SGMapCutout
+      :center="[7.38215514199635, 61.96122180405936]"
+      :zoom="13.2"
+      :pitch="77"
+      :bearing="67"
+      :satellite="'satellite'"
     />
     <SGText>
       <p>
@@ -241,6 +253,7 @@ console.log('length:', lengthof)
         'IMG_1452.jpg',
         'IMG_9448.jpg',
         '20260710_135147.jpg',
+        'o_DJI_0157_trim.m4v',
         'IMG_1455.jpg',
         'IMG_5323.jpg',
         'IMG_9475.jpg',
@@ -272,6 +285,13 @@ console.log('length:', lengthof)
         camp with a hint of rain on the horizon, cooked dinner and headed to bed.
       </p>
     </SGText>
+    <SGMapCutout
+      :center="[6.839475704218557, 61.86403814161946]"
+      :zoom="10"
+      :pitch="0"
+      :bearing="0"
+      :satellite="'satellite'"
+    />
     <SGGallery
       :list="[
         'IMG_9505.jpg',
@@ -323,6 +343,7 @@ console.log('length:', lengthof)
         hotdogs.
       </p>
     </SGText>
+
     <SGGallery
       :list="[
         'PXL_20260711_092354364.jpg',
@@ -381,6 +402,5 @@ console.log('length:', lengthof)
 
     <SGGallery :list="['IMG_9566.jpg', '20260712_174033.jpg', 'PXL_20260712_205318659.jpg']" />
     <SGText><p>To be continued…</p></SGText>
-    <SGMapCutout />
   </DetailView>
 </template>
