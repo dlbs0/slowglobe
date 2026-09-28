@@ -143,6 +143,7 @@ console.log('length:', lengthof)
       :follow="true"
       :use-time="false"
       :show-time="true"
+      :show-distance="true"
       :follow-pitch="50"
       :overview="true"
       :overview-pitch="75"
