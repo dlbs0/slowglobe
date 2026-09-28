@@ -14,8 +14,10 @@ import { flytfest } from './flytfest/flytfest'
 import { firstChairLastCall } from './firstChairLastCall/firstChairLastCall'
 import { goingCoastal } from './goingCoastal/goingCoastal'
 import { swedishWindows } from './swedishWindows/swedishWindows'
+import { norway2026 } from './norway2026/norway2026'
 
 export const allTrips: Trip[] = [
+  norway2026,
   // demoTrip,
   goingCoastal,
   swedishWindows,

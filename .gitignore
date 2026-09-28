@@ -32,7 +32,9 @@ coverage
 engine/typed-router.d.ts
 
 **/images/source_files/**
+**/images/edits/**
 **/videos/source_files/**
+**/videos/edits/**
 
 *.heic
 *.HEIC

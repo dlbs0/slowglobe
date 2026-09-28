@@ -82,6 +82,7 @@ const dayFourGeom = flinders.value?.features[3] as Feature<LineString>
       :follow-pitch="70"
       :overview="true"
       :satellite="true"
+      :dynamic-lighting="true"
     />
     <SGGallery
       :list="[
@@ -209,6 +210,7 @@ const dayFourGeom = flinders.value?.features[3] as Feature<LineString>
       :use-time="false"
       :show-time="true"
       :satellite="true"
+      :dynamic-lighting="true"
     />
     <SGGallery
       :list="[
