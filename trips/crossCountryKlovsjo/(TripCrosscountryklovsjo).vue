@@ -10,7 +10,7 @@ const { data: geom } = useTripDetails()
 </script>
 
 <template>
-  <DetailView>
+  <DetailView weather="snowy">
     <SGHeader>Cross Country in Klövsjö</SGHeader>
     <SGText>
       <p>
